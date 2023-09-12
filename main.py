@@ -13,7 +13,7 @@ from discord_slash.utils.manage_components import wait_for_component
 #permission 2184440384
 
 TOKEN = os.getenv(
-    'OTY2NDEwMTI1NzM0NzE5NTcw.YmBVkQ.1KjQAhhMPUihVJy3F5rED-ZHQmo')
+    'ArBot')
 pref = "'"
 bot = commands.Bot(command_prefix=str(pref), help_command=None)  # กำหนด Prefix
 slash = SlashCommand(bot, sync_commands=True)
